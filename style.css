@@ -29,13 +29,13 @@ body {
     box-shadow: 0 10px 25px rgba(0,0,0,0.3);
 
     /* 🔥 transición suave */
-    transition: width 0.3s ease, height 0.3s ease, box-shadow 0.3s ease;
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out, box-shadow 0.3s ease;
 }
 
 /* 🔥 EFECTO AL PASAR EL MOUSE */
 .box:hover {
-    width: 355px;
-    height: 200px;
+    width: 400px;
+    height: 245px;
     box-shadow: 0 18px 40px rgba(0,0,0,0.5);
 }
 
