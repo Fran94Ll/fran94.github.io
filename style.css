@@ -34,7 +34,8 @@ body {
 
 /* 🔥 EFECTO AL PASAR EL MOUSE */
 .box:hover {
-    transform: scale(1.12);
+    width: 355px;
+    height: 200px;
     box-shadow: 0 18px 40px rgba(0,0,0,0.5);
 }
 
