@@ -29,7 +29,7 @@ body {
     box-shadow: 0 10px 25px rgba(0,0,0,0.3);
 
     /* 🔥 transición suave */
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: width 0.3s ease, height 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* 🔥 EFECTO AL PASAR EL MOUSE */
