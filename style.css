@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111;
+}
+
+/* CONTENEDOR CENTRADO */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* RECTÁNGULO */
+.box {
+    width: 320px;     /* 📌 ancho en px */
+    height: 180px;    /* 📌 alto en px */
+    background: #4facfe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    transition: transform 0.2s;
+}
+
+/* efecto clic */
+.box:active {
+    transform: scale(0.97);
+}
